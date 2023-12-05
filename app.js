@@ -41,5 +41,4 @@ UserRoutes(app);
 ModuleRoutes(app);
 CourseRoutes(app);
 
-// app.listen(process.env.PORT || 4000, () => console.log("Server running..."));
-app.listen(4000, () => console.log("Server running..."));
+app.listen(process.env.PORT || 4000, () => console.log("Server running..."));
